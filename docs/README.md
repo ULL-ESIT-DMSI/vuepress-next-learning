@@ -1,8 +1,4 @@
----
-title: Hello VuePress next!
---- 
-
-# {{ page.title }}
+# Hello VuePress next!
 
 ## Introduction
 
