@@ -8,6 +8,8 @@ This is an attempt to lean vuepress next to use for the DMSI and SYTWS subjects 
 
 ## Deployment
 
+Have to create a secret with a token named `ACCESS_TOKEN`:
+
 ```yml
 name: Build and Deploy
 on: [push]
