@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress'
-
 import { defaultTheme } from '@vuepress/theme-default'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -8,7 +8,9 @@ export default defineUserConfig({
   description: 'Just playing around',
   base: '/vuepress-next-learning/',
   plugins: [ 
-
+    searchPlugin({
+      // options
+    }),
   ],
   theme: defaultTheme({
     // set config here
