@@ -1,4 +1,13 @@
-# Hello VuePress next!
+---
+title: "Hello VuePress 2.0!"
+next: prueba.md
+---
+
+#  {{ $frontmatter.title }}
+
+frontmatter: {{ $frontmatter }}
+
+page: {{ $page.title }}
 
 ## Introduction
 
