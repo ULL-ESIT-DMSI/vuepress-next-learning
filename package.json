@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "save": "git ci -am 'learning vuepress@next' && git push",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },

@@ -1,5 +1,12 @@
-# Hello VuePress
+---
+title: Hello VuePress next!
+--- 
 
+# {{ page.title }}
+
+## Introduction
+
+For the course 22/23 I want to try Vuepress next with most of the subjects I teach.
 Hello Vuepress next!
 
 ## Goals
