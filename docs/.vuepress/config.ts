@@ -1,6 +1,9 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme, } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import * as path from 'path'
+
 /*
 const navBar2 = [
   // NavbarItem
@@ -26,6 +29,9 @@ export default defineUserConfig({
   description: 'Just playing around',
   base: '/vuepress-next-learning/',
   plugins: [ 
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+      }),
     searchPlugin({
       // options for @vuepress/plugin-search
     }),

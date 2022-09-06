@@ -2,3 +2,5 @@ node_modules
 .temp
 .cache
 docs/.vuepress/dist/
+docs/dmsi2122
+pl2122
