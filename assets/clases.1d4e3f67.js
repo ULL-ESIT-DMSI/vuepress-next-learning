@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as o}from"./app.83287b6b.js";const t={};function a(c,n,r,_,l,p){return s(),o("h2",null,"Esta es la Componente de Prueba")}const u=e(t,[["render",a],["__file","clases.vue"]]);export{u as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7214a1e2","path":"/prueba.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Hola","slug":"hola","link":"#hola","children":[]}],"git":{"updatedTime":1662470617000,"contributors":[{"name":"Casiano Rodriguez-Leon","email":"crguezl@ull.edu.es","commits":1}]},"filePathRelative":"prueba.md"}');export{e as data};
